@@ -46,7 +46,7 @@ function App() {
     // Create a fake anchor element
     const link = document.createElement('a');
     link.download = 'M Sneha.pdf'; // specify the file name
-    link.href = 'https://drive.google.com/file/d/1oSCxnX_bYSFSCfTl6NRk4H02z4-L89cs/view?usp=sharing'; // specify the file path
+    link.href = 'https://drive.google.com/file/d/1_aljk5ldDL7MSvSJwf9_SKyb77F6-nNK/view?usp=sharing'; // specify the file path
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
