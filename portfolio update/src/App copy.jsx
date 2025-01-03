@@ -69,7 +69,7 @@ function App() {
   const downloadFile = () => {
     const link = document.createElement('a');
     link.download = 'M Sneha.pdf';
-    link.href = 'https://drive.google.com/file/d/1DuvCFtP5fcPKw2XpIqvGoqyftR3wqiU8/view?usp=sharing';
+    link.href = 'https://drive.google.com/file/d/1R-e7XrIbLt7SOXtwxthpLIPw9wD6PuH8/view?usp=sharing';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
